@@ -1,0 +1,36 @@
+/*------  body ------*/
+body {
+  min-height: 100vh;
+  max-height: fit-content;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
+/* ------ Box Sizing Property ------ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box !important;
+}
+
+
+/* ------- Root block ------ */
+#root{
+  min-height: 100vh;
+  max-height: fit-content;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
